@@ -1,0 +1,38 @@
+mindmap
+  root((Gestão de Dados de Investigação))
+    Governação
+      Políticas e requisitos
+      Responsabilidades
+      Ética, privacidade e IP
+      Custos
+    Planeamento
+      Data Management Plan
+      Requisitos de financiadores
+      Fluxos de trabalho
+    Dados FAIR
+      Encontrabilidade
+      Acessibilidade
+      Interoperabilidade
+      Reutilização
+      Metadados e documentação
+    Investigação activa
+      Recolha e organização
+      Armazenamento e cópias de segurança
+      Colaboração
+      Código e software
+      Computação
+    Dados sensíveis
+      Dados pessoais
+      Segurança
+      Controlo de acesso
+      Embargos e restrições
+    Encerramento
+      Preservação
+      Repositórios
+      DOI e ligação a publicações
+      Partilha responsável
+    Pessoas e apoio
+      Consultoria
+      Data stewards/champions
+      Formação
+      Helpdesk

@@ -1,0 +1,24 @@
+@startuml
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 16
+skinparam shadowing false
+skinparam rectangleBackgroundColor #EEF5EF
+skinparam rectangleBorderColor #558570
+skinparam ArrowColor #557568
+top to bottom direction
+rectangle "[[fases-dados/planear.html 1. Planear]]" as N0
+rectangle "[[fases-dados/recolher.html 2. Recolher e organizar]]" as N1
+rectangle "[[fases-dados/documentar.html 3. Documentar e preparar]]" as N2
+rectangle "[[fases-dados/analisar.html 4. Analisar e validar]]" as N3
+rectangle "[[fases-dados/publicar.html 5. Partilhar e publicar]]" as N4
+rectangle "[[fases-dados/preservar.html 6. Preservar]]" as N5
+rectangle "[[fases-dados/reutilizar.html 7. Reutilizar]]" as N6
+N0 --> N1
+N1 --> N2
+N2 --> N3
+N3 --> N4
+N4 --> N5
+N5 --> N6
+N6 -[#739E83,dashed]-> N0 : novo ciclo
+@enduml

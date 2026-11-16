@@ -1,0 +1,15 @@
+@startmindmap
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 16
+skinparam shadowing false
+* Perfis e recursos
+** [[perfis/docente.html Docente]]
+** [[perfis/estudante.html Estudante e bolseiro]]
+** [[perfis/investigador.html Investigador e técnico]]
+** [[perfis/steward.html Data steward]]
+**_ [[perfis/curador.html Curador, biblioteca e arquivo]]
+**_ [[perfis/coordenador.html Coordenação e apoio]]
+**_ [[perfis/informatica.html Informática]]
+**_ [[perfis/epd.html EPD, ética e jurídico]]
+@endmindmap

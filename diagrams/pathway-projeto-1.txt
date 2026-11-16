@@ -1,0 +1,25 @@
+@startuml
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 16
+skinparam shadowing false
+skinparam rectangleBackgroundColor #EEF5EF
+skinparam rectangleBorderColor #558570
+skinparam ArrowColor #557568
+top to bottom direction
+rectangle "[[fases-projeto/concecao.html 1. Conceção]]" as N0
+rectangle "[[fases-projeto/candidatura.html 2. Candidatura]]" as N1
+rectangle "[[fases-projeto/aprovacao.html 3. Aprovação e arranque]]" as N2
+rectangle "[[fases-projeto/execucao.html 4. Execução]]" as N3
+rectangle "[[fases-projeto/acompanhamento.html 5. Acompanhamento]]" as N4
+rectangle "[[fases-projeto/encerramento.html 6. Encerramento]]" as N5
+rectangle "[[fases-projeto/pos-projeto.html 7. Pós-projeto]]" as N6
+N0 --> N1
+N1 --> N2
+N2 --> N3
+N3 --> N4
+N4 --> N5
+N5 --> N6
+N6 -[#739E83,dashed]-> N0 : novo ciclo
+N4 -[#739E83,dashed]-> N3 : rever durante a execução
+@enduml
