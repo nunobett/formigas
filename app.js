@@ -57,7 +57,7 @@
       link.href = root + page.url;
       link.textContent = page.title;
       const subtitle = document.createElement('small');
-      subtitle.textContent = page.url.startsWith('ferramentas/') ? 'Ficha de ferramenta ou recurso' : page.url.startsWith('perfis/') ? 'Perfil' : page.url.startsWith('fases-dados/') ? 'Fase do ciclo dos dados' : page.url.startsWith('fases-projeto/') ? 'Fase do ciclo do projeto' : 'Página da base de conhecimento';
+      subtitle.textContent = page.url.startsWith('apresentacao/') ? 'Slide da apresentação' : page.url.startsWith('ferramentas/') ? 'Ficha de ferramenta ou recurso' : page.url.startsWith('perfis/') ? 'Perfil' : page.url.startsWith('fases-dados/') ? 'Fase do ciclo dos dados' : page.url.startsWith('fases-projeto/') ? 'Fase do ciclo do projeto' : 'Página da base de conhecimento';
       link.append(subtitle);
       results.append(link);
     });

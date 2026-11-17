@@ -12,4 +12,5 @@ skinparam shadowing false
 **_ [[perfis/coordenador.html Coordenação e apoio]]
 **_ [[perfis/informatica.html Informática]]
 **_ [[perfis/epd.html EPD, ética e jurídico]]
+**_ [[perfis/gestor-ciencia.html Gestor de Ciência]]
 @endmindmap
