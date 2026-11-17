@@ -3,9 +3,25 @@ skinparam backgroundColor white
 skinparam defaultFontName SansSerif
 skinparam defaultFontSize 16
 skinparam shadowing false
-skinparam ArrowColor #557568
-skinparam nodeBorderColor #558570
-skinparam nodeBackgroundColor #EEF5EF
+skinparam ArrowColor #855275
+skinparam nodeBorderColor #855275
+skinparam nodeBackgroundColor #FAF2F0
+<style>
+mindmapDiagram {
+  node {
+    BackgroundColor #FAF2F0
+    LineColor #855275
+    FontColor #1F1F1F
+  }
+  rootNode {
+    BackgroundColor #855275
+    FontColor #FFFFFF
+  }
+  arrow {
+    LineColor #855275
+  }
+}
+</style>
 * Gestão de Dados de Investigação
 ** Governação
 *** Políticas e requisitos

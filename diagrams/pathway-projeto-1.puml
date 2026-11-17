@@ -3,9 +3,10 @@ skinparam backgroundColor white
 skinparam defaultFontName SansSerif
 skinparam defaultFontSize 16
 skinparam shadowing false
-skinparam rectangleBackgroundColor #EEF5EF
-skinparam rectangleBorderColor #558570
-skinparam ArrowColor #557568
+skinparam defaultFontColor #1F1F1F
+skinparam rectangleBackgroundColor #FAF2F0
+skinparam rectangleBorderColor #855275
+skinparam ArrowColor #855275
 top to bottom direction
 rectangle "[[fases-projeto/concecao.html 1. Conceção]]" as N0
 rectangle "[[fases-projeto/candidatura.html 2. Candidatura]]" as N1
@@ -20,6 +21,6 @@ N2 --> N3
 N3 --> N4
 N4 --> N5
 N5 --> N6
-N6 -[#739E83,dashed]-> N0 : novo ciclo
-N4 -[#739E83,dashed]-> N3 : rever durante a execução
+N6 -[#CC4125,dashed]-> N0 : novo ciclo
+N4 -[#CC4125,dashed]-> N3 : rever durante a execução
 @enduml

@@ -3,6 +3,22 @@ skinparam backgroundColor white
 skinparam defaultFontName SansSerif
 skinparam defaultFontSize 16
 skinparam shadowing false
+<style>
+mindmapDiagram {
+  node {
+    BackgroundColor #FAF2F0
+    LineColor #855275
+    FontColor #1F1F1F
+  }
+  rootNode {
+    BackgroundColor #855275
+    FontColor #FFFFFF
+  }
+  arrow {
+    LineColor #855275
+  }
+}
+</style>
 * Perfis e recursos
 ** [[perfis/docente.html Docente]]
 ** [[perfis/estudante.html Estudante e bolseiro]]

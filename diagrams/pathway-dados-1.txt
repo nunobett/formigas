@@ -3,9 +3,10 @@ skinparam backgroundColor white
 skinparam defaultFontName SansSerif
 skinparam defaultFontSize 16
 skinparam shadowing false
-skinparam rectangleBackgroundColor #EEF5EF
-skinparam rectangleBorderColor #558570
-skinparam ArrowColor #557568
+skinparam defaultFontColor #1F1F1F
+skinparam rectangleBackgroundColor #FAF2F0
+skinparam rectangleBorderColor #855275
+skinparam ArrowColor #855275
 top to bottom direction
 rectangle "[[fases-dados/planear.html 1. Planear]]" as N0
 rectangle "[[fases-dados/recolher.html 2. Recolher e organizar]]" as N1
@@ -20,5 +21,5 @@ N2 --> N3
 N3 --> N4
 N4 --> N5
 N5 --> N6
-N6 -[#739E83,dashed]-> N0 : novo ciclo
+N6 -[#CC4125,dashed]-> N0 : novo ciclo
 @enduml
